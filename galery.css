@@ -26,7 +26,7 @@ body {
 	color: #ffffff;	
 }
 
-table {
+table .truth-table{
 	padding: 20px;
 	text-align: center;
 	vertical-align: middle;
