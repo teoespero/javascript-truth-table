@@ -25,3 +25,9 @@ body {
 .navbar-inverse .navbar-brand {
 	color: #ffffff;	
 }
+
+table {
+	padding: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
