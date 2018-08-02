@@ -1,7 +1,3 @@
-body {
-	padding: 70px;
-}
-
 .my-class {
     background: #ffffff;
 }
@@ -26,8 +22,9 @@ body {
 	color: #ffffff;	
 }
 
-table .truth-table{
+.truth-table{
 	padding: 20px;
 	text-align: center;
 	vertical-align: middle;
+	border: 1px solid #2c3e50;
 }

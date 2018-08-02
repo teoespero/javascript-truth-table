@@ -22,24 +22,53 @@
 			<title>teoespero.com | Javascript Programming</title>
 			<meta name="description" content="">
   			<meta name="author" content="teoespero">
-
-  			<script type="text/javascript">
-
-  			</script>
 	</head>
 	<body>
 		<div class="container">
 			<h1>The Javascript Truth Table</h1>
-			<table class="truth-table">
+			<table class="truth-table table table-hover">
 				<thead>
 					<tr>
-						<th>X</th>
-						<th>Y</th>
-						<th>Z</th>
-						<th>Condition</th>
-						<th>Results</th>
+						<td>X</td>
+						<td>Y</td>
+						<td>Z</td>
+						<td>Condition</td>
+						<td>Results</td>
 					</tr>
 				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>1</td>
+						<td></td>
+						<td>AND (&&)</td>
+						<td>
+							<p id="and1"></p>
+							<script type="text/javascript">
+								document.getElementById("and1").innerHTML = 1 && 1;
+				  			</script>
+						</td>
+					</tr>
+					<tr>
+						<td>True</td>
+						<td>False</td>
+						<td></td>
+						<td>AND (&&)</td>
+						<td>
+							<p id="and2"></p>
+							<script type="text/javascript">
+								document.getElementById("and2").innerHTML = 1 && 0;
+				  			</script>
+						</td>
+					</tr>
+					<tr>
+						<td>False</td>
+						<td>True</td>
+						<td></td>
+						<td>AND</td>
+						<td></td>
+					</tr>
+				</tbody>
 			</table>
 		</div>
 	</body>
