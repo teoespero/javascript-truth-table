@@ -29,10 +29,11 @@
 			<table class="truth-table table table-hover">
 				<thead>
 					<tr>
-						<th class="text-center">X</th>
-						<th class="text-center">Y</th>
-						<th class="text-center">Z</th>
+						<th class="text-center">Condition 1</th>
+						<th class="text-center">Condition 2</th>
+						<th class="text-center">Condition 3</th>
 						<th class="text-center">Condition</th>
+						<th class="text-center">Expression</th>
 						<th class="text-center">Results</th>
 					</tr>
 				</thead>
@@ -43,6 +44,7 @@
 						<td>1</td>
 						<td>1</td>
 						<td>AND (&&)</td>
+						<td>1 && 1 && 1</td>
 						<td>
 							<p id="and1"></p>
 							<script type="text/javascript">
@@ -55,6 +57,7 @@
 						<td>1</td>
 						<td>0</td>
 						<td>AND (&&)</td>
+						<td>1 && 1 && 0</td>
 						<td>
 							<p id="and2"></p>
 							<script type="text/javascript">
@@ -67,6 +70,7 @@
 						<td>0</td>
 						<td>0</td>
 						<td>AND (&&)</td>
+						<td>1 && 0 && 0</td>
 						<td>
 							<p id="and3"></p>
 							<script type="text/javascript">
@@ -79,6 +83,7 @@
 						<td>0</td>
 						<td>0</td>
 						<td>AND (&&)</td>
+						<td>0 && 0 && 0</td>
 						<td>
 							<p id="and4"></p>
 							<script type="text/javascript">
@@ -92,6 +97,7 @@
 						<td>1</td>
 						<td>1</td>
 						<td>OR (&&)</td>
+						<td>1 || 1 || 1</td>
 						<td>
 							<p id="and5"></p>
 							<script type="text/javascript">
@@ -104,6 +110,7 @@
 						<td>1</td>
 						<td>0</td>
 						<td>OR (&&)</td>
+						<td>1 || 1 || 0</td>
 						<td>
 							<p id="and6"></p>
 							<script type="text/javascript">
@@ -116,6 +123,7 @@
 						<td>0</td>
 						<td>0</td>
 						<td>OR (&&)</td>
+						<td>1 || 0 || 0</td>
 						<td>
 							<p id="and7"></p>
 							<script type="text/javascript">
@@ -128,6 +136,7 @@
 						<td>0</td>
 						<td>0</td>
 						<td>OR (&&)</td>
+						<td>0 || 0 || 0</td>
 						<td>
 							<p id="and8"></p>
 							<script type="text/javascript">
@@ -141,6 +150,7 @@
 						<td></td>
 						<td></td>
 						<td>NOT (!)</td>
+						<td>! (1)</td>
 						<td>
 							<p id="and9"></p>
 							<script type="text/javascript">
@@ -153,6 +163,7 @@
 						<td></td>
 						<td></td>
 						<td>NOT (!)</td>
+						<td>! (0)</td>
 						<td>
 							<p id="and10"></p>
 							<script type="text/javascript">
