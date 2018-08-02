@@ -37,6 +37,7 @@
 					</tr>
 				</thead>
 				<tbody>
+					<!-- AND -->
 					<tr>
 						<td>1</td>
 						<td>1</td>
@@ -65,7 +66,7 @@
 						<td>1</td>
 						<td>0</td>
 						<td>0</td>
-						<td>AND</td>
+						<td>AND (&&)</td>
 						<td>
 							<p id="and3"></p>
 							<script type="text/javascript">
@@ -84,7 +85,56 @@
 								document.getElementById("and4").innerHTML = 0 && 0 && 0;
 				  			</script>
 						</td>
-					</tr>					
+					</tr>	
+					<!-- OR -->				
+					<tr>
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+						<td>OR (&&)</td>
+						<td>
+							<p id="and5"></p>
+							<script type="text/javascript">
+								document.getElementById("and5").innerHTML = 1 || 1 || 1;
+				  			</script>
+						</td>
+					</tr>	
+					<tr>
+						<td>1</td>
+						<td>1</td>
+						<td>0</td>
+						<td>OR (&&)</td>
+						<td>
+							<p id="and6"></p>
+							<script type="text/javascript">
+								document.getElementById("and6").innerHTML = 1 || 1 || 0;
+				  			</script>
+						</td>
+					</tr>	
+					<tr>
+						<td>1</td>
+						<td>0</td>
+						<td>0</td>
+						<td>OR (&&)</td>
+						<td>
+							<p id="and7"></p>
+							<script type="text/javascript">
+								document.getElementById("and7").innerHTML = 1 || 0 || 0;
+				  			</script>
+						</td>
+					</tr>	
+					<tr>
+						<td>0</td>
+						<td>0</td>
+						<td>0</td>
+						<td>OR (&&)</td>
+						<td>
+							<p id="and8"></p>
+							<script type="text/javascript">
+								document.getElementById("and8").innerHTML = 0 || 0 || 0;
+				  			</script>
+						</td>
+					</tr>	
 				</tbody>
 			</table>
 		</div>
