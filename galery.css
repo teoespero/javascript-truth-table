@@ -33,3 +33,11 @@ th {
 	vertical-align: middle;
 	text-align: center;
 }
+
+.table td {
+   text-align: center;   
+}
+
+.table th {
+   text-align: center;   
+}
