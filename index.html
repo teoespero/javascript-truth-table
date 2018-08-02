@@ -29,11 +29,11 @@
 			<table class="truth-table table table-hover">
 				<thead>
 					<tr>
-						<td>X</td>
-						<td>Y</td>
-						<td>Z</td>
-						<td>Condition</td>
-						<td>Results</td>
+						<th>X</th>
+						<th>Y</th>
+						<th>Z</th>
+						<th>Condition</th>
+						<th>Results</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -134,6 +134,45 @@
 								document.getElementById("and8").innerHTML = 0 || 0 || 0;
 				  			</script>
 						</td>
+					</tr>	
+					<!-- NOT -->
+					<tr>
+						<td>1</td>
+						<td></td>
+						<td></td>
+						<td>NOT (!)</td>
+						<td>
+							<p id="and9"></p>
+							<script type="text/javascript">
+								document.getElementById("and5").innerHTML = !(1);
+				  			</script>
+						</td>
+					</tr>	
+					<tr>
+						<td>0</td>
+						<td></td>
+						<td></td>
+						<td>NOT (!)</td>
+						<td>
+							<p id="and10"></p>
+							<script type="text/javascript">
+								document.getElementById("and10").innerHTML = ! (0);
+				  			</script>
+						</td>
+					</tr>	
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>	
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
 					</tr>	
 				</tbody>
 			</table>
